@@ -1,0 +1,9 @@
+<% extends "main_body.htm.j2" %>
+<% block title %>%% title %%<% endblock %>
+<% include 'header.htm.j2' %>
+<% block content %>
+    <h1>%% title %%</h1>
+    <p>
+      Welcome, %% user.nickname %%
+    </p>
+<% endblock %>

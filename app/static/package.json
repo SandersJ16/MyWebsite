@@ -1,0 +1,15 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "Justin Sanders' amazing spectacular website extrodinaire",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Sanders",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.5.2",
+    "vue": "^2.4.2"
+  }
+}
