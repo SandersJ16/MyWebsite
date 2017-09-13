@@ -1,6 +1,10 @@
 <% extends "main_body.htm.j2" %>
 <% block title %>%% title %%<% endblock %>
-<% include 'header.htm.j2' %>
+
+<% block header %>
+    <% include 'header.htm.j2' %>
+<% endblock %>
+
 <% block content %>
     <h1>%% title %%</h1>
     <p>

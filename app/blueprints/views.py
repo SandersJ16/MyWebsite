@@ -1,9 +1,10 @@
-from flask import render_template
-from app import app
+from flask import Blueprint, render_template
+
+bp = Blueprint("views", __name__, template_folder="templates")
 
 
-@app.route("/")
-@app.route("/index")
+@bp.route("/")
+@bp.route("/index")
 def index():
     user = {"nickname": "Sandy"}
     return render_template("index.htm.j2",
