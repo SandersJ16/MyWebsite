@@ -1,3 +1,5 @@
+# import click
+# from flaskext.sass import sass
 from werkzeug.utils import find_modules, import_string
 from flask import Flask
 
@@ -26,3 +28,10 @@ def register_blueprints(app):
 
 app = CustomTemplateFlask(__name__)
 register_blueprints(app)
+# if app.debug:
+#     sass(app, input_dir='static/sass/')
+
+# @app.cli.command()
+# def initdb():
+#     """Initialize the database."""
+#     click.echo('Init the db')

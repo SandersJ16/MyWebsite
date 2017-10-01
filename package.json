@@ -1,0 +1,17 @@
+{
+  "name": "MyWebsite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Justin Sanders",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.5.3",
+    "vue": "^2.4.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  },
+  "scripts": {
+    "scss-compile": "node-sass -rw app/static/sass -o app/static/css"
+  }
+}
