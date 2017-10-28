@@ -1,13 +1,15 @@
-<% extends "main_body.htm.j2" %>
+<% extends "base.htm.j2" %>
+
 <% block title %>%% title %%<% endblock %>
 
-<% block header %>
-    <% include 'header.htm.j2' %>
-<% endblock %>
-
 <% block content %>
-    <h1>%% title %%</h1>
-    <p>
-      Welcome, %% user.nickname %%
-    </p>
+<section class="hero is-info is-fullheight">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">%% title %%</h1>
+      <h2 class="subtitle">%% subtitle %%</h2>
+      <h3 class="subtitle">(Not a UX Designer)</h3>
+    </div>
+  </div>
+</section>
 <% endblock %>

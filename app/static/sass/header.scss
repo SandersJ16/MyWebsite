@@ -1,0 +1,12 @@
+@import "bulma_config";
+@import "../node_modules/bulma/sass/utilities/variables";
+
+$header_background_color: $primary;
+.main_header {
+    width: 100%;
+    background-color: $header_background_color;
+
+    nav.navbar {
+        background-color: $header_background_color;
+    }
+}

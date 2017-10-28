@@ -6,12 +6,14 @@
   "license": "MIT",
   "dependencies": {
     "bulma": "^0.5.3",
+    "font-awesome": "^4.7.0",
     "vue": "^2.4.4"
   },
   "devDependencies": {
     "node-sass": "^4.5.3"
   },
   "scripts": {
-    "scss-compile": "node-sass -rw app/static/sass -o app/static/css"
+    "scss-compile": "node-sass -r app/static/sass -o app/static/css",
+    "scss-watch": "node-sass -wr app/static/sass -o app/static/css"
   }
 }

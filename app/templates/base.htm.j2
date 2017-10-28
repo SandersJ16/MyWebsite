@@ -1,0 +1,10 @@
+<% extends "main_body.htm.j2" %>
+
+<% block links %>
+    %% super() %%
+    %% css_links([url_for('static', filename='css/header.css')]) %%
+<% endblock %>
+
+<% block header %>
+    <% include 'header.htm.j2' %>
+<% endblock %>

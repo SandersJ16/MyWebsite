@@ -26,6 +26,7 @@ def kill_flask(signum, frame):
 
 
 if __name__ == "__main__":
+    # Override Ctrl+C to allow graceful shutdown of flask and Sass
     original_sigint = signal.getsignal(signal.SIGINT)
     signal.signal(signal.SIGINT, kill_flask)
 

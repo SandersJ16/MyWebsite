@@ -1,19 +1,40 @@
-<header class="container">
-    <h1 class="title is-1">Justin Sanders</h1>
-    <h2 class="subtitle is-3">Grand Code Master Supreme</h2>
+<% macro external_link(visibility, url, icon) %>
+    <a class="navbar-item %% visibility %%" href="%% url %%" target="_blank">
+        <span class="icon has-text-info">
+            <i class="fa fa-3x fa-%% icon %%"></i>
+        </span>
+    </a>
+<% endmacro %>
+<% macro external_links(visibility) %>
+    %% external_link(visibility, "https://github.com/SandersJ16", "github") %%
+    %% external_link(visibility, "https://www.linkedin.com/in/justinsanderscodemastersupreme/", "linkedin") %%
+<% endmacro %>
+
+<div class="container is-primary">
     <nav class="navbar">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <img src="%% url_for('static', filename='img/JustinSanders.svg') %%" alt="Justin Sanders" class="header_logo">
+            </a>
+            <!-- Display only on mobile screen devies -->
+            %% external_links("is-hidden-desktop") %%
+        </div>
+
         <div class="navbar-menu">
-            <ul class="navbar-start">
-                <li class="navbar-item">
-                    <a class="navbar-link button is-primary" href="/">Home</a>
-                </li>
-                <li class="navbar-item">
-                    <a class="button is-primary" href="/">Bio</a>
-                </li>
-                <li class="navbar-item">
-                    <a class="button is-primary" href="/">Notes</a>
-                </li>
-            </ul>
+            <div class="navbar-start">
+                <a class="navbar-item" href="/">
+                    Bio
+                </a>
+                <a class="navbar-item" href="/">
+                    Notes
+                </a>
+            </div>
+
+            <div class="navbar-end">
+                <span class="navbar-item">Welcome, %% config.user.nickname|default("Guest") %%</span>
+                <!-- Display only on full screen devices -->
+                %% external_links("is-hidden-desktop-only") %%
+            </div>
         </div>
     </nav>
-</header>
+</div>
