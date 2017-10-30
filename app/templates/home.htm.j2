@@ -2,8 +2,13 @@
 
 <% block title %>%% title %%<% endblock %>
 
+<% block links %>
+    %% super() %%
+    %% css_links([url_for('static', filename='css/home.css')]) %%
+<% endblock %>
+
 <% block content %>
-<section class="hero is-info is-fullheight">
+<section class="hero is-info fill-page"> <!--is-fullheight-->
   <div class="hero-body">
     <div class="container">
       <h1 class="title">%% title %%</h1>

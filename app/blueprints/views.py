@@ -6,6 +6,6 @@ bp = Blueprint("views", __name__, template_folder="templates")
 @bp.route("/")
 @bp.route("/index")
 def index():
-    return render_template("index.htm.j2",
+    return render_template("home.htm.j2",
                            title="Justin Sanders",
                            subtitle="Grand Code Master Supreme")
