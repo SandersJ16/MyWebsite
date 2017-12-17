@@ -1,0 +1,39 @@
+@import "bulma_config";
+@import "../node_modules/bulma/sass/utilities/variables";
+@import "mixins";
+
+html, body {
+    //background-image: url("/static/img/cream-pixels.png");
+    background-image: url("/static/img/dark-mosaic.png");
+    background-image: url("/static/img/crisp-paper-ruffles.png");
+    background-image: url("/static/img/triangles_transparent_2.png");
+    background-image: url("/static/img/triangles_2.jpg");
+    background-repeat: repeat;
+}
+
+.img-profile {
+    border-radius: 50%;
+    max-height: 700px;
+    height: 80%;
+    min-height: 300px;
+    z-index: 0; //Places image behind header for weird screen sizes
+}
+
+nav {
+    z-index: 1;
+}
+
+p {
+    font-size: 1.25em;
+    margin-bottom:1.5em
+}
+
+.full-height {
+    height: 100%
+}
+
+.profile-img-section {
+    @include flex();
+    justify-content: center;
+    align-items: center;
+}

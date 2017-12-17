@@ -1,5 +1,16 @@
-.main_header {
-  width: 100%;
-  background-color: #b86bff; }
-  .main_header nav.navbar {
-    background-color: #b86bff; }
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono");
+.navbar-menu.is-active {
+  position: absolute;
+  right: 0; }
+
+a.navbar-item:hover .icon.neutral {
+  display: none; }
+
+a.navbar-item:hover .icon.hovered {
+  display: initial; }
+
+a.navbar-item .icon.neutral {
+  display: initial; }
+
+a.navbar-item .icon.hovered {
+  display: none; }

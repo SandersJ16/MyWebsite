@@ -1,7 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono");
 html, body {
+  background-color: #00DCD4;
+  overflow-y: auto;
+  overflow-x: hidden;
   height: 100%;
   margin: 0;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
   display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
   -webkit-box-orient: vertical;
   -moz-box-orient: vertical;
   -webkit-flex-direction: column;
@@ -14,3 +27,7 @@ html, body {
 .main_body {
   height: 0;
   flex: 1 1 auto; }
+
+.fill-page {
+  height: 100%;
+  background-size: 100% 100%; }

@@ -1,0 +1,2131 @@
+.document {
+  padding: 20px; }
+
+.document_controls {
+  max-width: 8.5in;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px; }
+
+.page {
+  max-width: 8.5in;
+  min-height: 11in;
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  box-shadow: 10px 10px 5px grey;
+  margin-left: auto;
+  margin-right: auto;
+  tab-interval: 36.0pt; }
+
+@font-face {
+  .page {
+    font-family: Wingdings;
+    panose-1: 5 0 0 0 0 0 0 0 0 0;
+    mso-font-charset: 2;
+    mso-generic-font-family: auto;
+    mso-font-pitch: variable;
+    mso-font-signature: 0 268435456 0 0 -2147483648 0; } }
+
+@font-face {
+  .page {
+    font-family: "Cambria Math";
+    panose-1: 2 4 5 3 5 4 6 3 2 4;
+    mso-font-charset: 0;
+    mso-generic-font-family: roman;
+    mso-font-pitch: variable;
+    mso-font-signature: 3 0 0 0 1 0; } }
+
+@font-face {
+  .page {
+    font-family: "Century Gothic";
+    panose-1: 2 11 5 2 2 2 2 2 2 4;
+    mso-font-charset: 0;
+    mso-generic-font-family: swiss;
+    mso-font-pitch: variable;
+    mso-font-signature: 647 0 0 0 159 0; } }
+
+@font-face {
+  .page {
+    font-family: Cambria;
+    panose-1: 2 4 5 3 5 4 6 3 2 4;
+    mso-font-charset: 0;
+    mso-generic-font-family: roman;
+    mso-font-pitch: variable;
+    mso-font-signature: -536869121 1073743103 0 0 415 0; } }
+  .page p.MsoNormal, .page li.MsoNormal, .page div.MsoNormal {
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-parent: "";
+    margin-top: 0cm;
+    margin-right: 0cm;
+    margin-bottom: 10.0pt;
+    margin-left: 0cm;
+    line-height: 115%;
+    mso-pagination: widow-orphan;
+    font-size: 11.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Century Gothic";
+    mso-bidi-font-family: "Times New Roman";
+    mso-ansi-language: EN-US;
+    mso-fareast-language: EN-US; }
+  .page h1 {
+    mso-style-priority: 9;
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-link: "Heading 1 Char";
+    mso-style-next: Normal;
+    margin-top: 24.0pt;
+    margin-right: 0cm;
+    margin-bottom: 0cm;
+    margin-left: 0cm;
+    margin-bottom: .0001pt;
+    line-height: 115%;
+    mso-pagination: widow-orphan lines-together;
+    page-break-after: avoid;
+    mso-outline-level: 1;
+    font-size: 14.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Times New Roman";
+    color: #E80061;
+    mso-font-kerning: 0pt;
+    mso-ansi-language: EN-US;
+    mso-fareast-language: EN-US; }
+  .page h2 {
+    mso-style-priority: 9;
+    mso-style-qformat: yes;
+    mso-style-link: "Heading 2 Char";
+    mso-style-next: Normal;
+    margin-top: 10.0pt;
+    margin-right: 0cm;
+    margin-bottom: 0cm;
+    margin-left: 0cm;
+    margin-bottom: .0001pt;
+    line-height: 115%;
+    mso-pagination: widow-orphan lines-together;
+    page-break-after: avoid;
+    mso-outline-level: 2;
+    font-size: 13.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Times New Roman";
+    color: #FF388C;
+    mso-ansi-language: EN-US;
+    mso-fareast-language: EN-US; }
+  .page h3 {
+    mso-style-priority: 9;
+    mso-style-qformat: yes;
+    mso-style-link: "Heading 3 Char";
+    mso-style-next: Normal;
+    margin-top: 12.0pt;
+    margin-right: 0cm;
+    margin-bottom: 3.0pt;
+    margin-left: 0cm;
+    line-height: 115%;
+    mso-pagination: widow-orphan;
+    page-break-after: avoid;
+    mso-outline-level: 3;
+    font-size: 13.0pt;
+    font-family: "Cambria",serif;
+    mso-fareast-font-family: "Times New Roman";
+    mso-ansi-language: EN-US;
+    mso-fareast-language: EN-US; }
+  .page p.MsoHeader, .page li.MsoHeader, .page div.MsoHeader {
+    mso-style-priority: 99;
+    mso-style-link: "Header Char";
+    margin-top: 0cm;
+    margin-right: 0cm;
+    margin-bottom: 10.0pt;
+    margin-left: 0cm;
+    line-height: 115%;
+    mso-pagination: widow-orphan;
+    tab-stops: center 234.0pt right 468.0pt;
+    font-size: 11.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Century Gothic";
+    mso-bidi-font-family: "Times New Roman";
+    mso-ansi-language: EN-US;
+    mso-fareast-language: EN-US; }
+  .page p.MsoFooter, .page li.MsoFooter, .page div.MsoFooter {
+    mso-style-priority: 99;
+    mso-style-link: "Footer Char";
+    margin-top: 0cm;
+    margin-right: 0cm;
+    margin-bottom: 10.0pt;
+    margin-left: 0cm;
+    line-height: 115%;
+    mso-pagination: widow-orphan;
+    tab-stops: center 234.0pt right 468.0pt;
+    font-size: 11.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Century Gothic";
+    mso-bidi-font-family: "Times New Roman";
+    mso-ansi-language: EN-US;
+    mso-fareast-language: EN-US; }
+  .page p.MsoTitle, .page li.MsoTitle, .page div.MsoTitle {
+    mso-style-priority: 10;
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-link: "Title Char";
+    mso-style-next: Normal;
+    margin-top: 0cm;
+    margin-right: 0cm;
+    margin-bottom: 15.0pt;
+    margin-left: 0cm;
+    mso-add-space: auto;
+    mso-pagination: widow-orphan;
+    border: none;
+    mso-border-bottom-alt: solid #FF388C 1.0pt;
+    padding: 0cm;
+    mso-padding-alt: 0cm 0cm 4.0pt 0cm;
+    font-size: 26.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Times New Roman";
+    mso-bidi-font-family: "Times New Roman";
+    color: #4C4C4C;
+    letter-spacing: .25pt;
+    mso-font-kerning: 14.0pt;
+    mso-ansi-language: EN-US;
+    mso-fareast-language: EN-US; }
+  .page p.MsoTitleCxSpFirst, .page li.MsoTitleCxSpFirst, .page div.MsoTitleCxSpFirst {
+    mso-style-priority: 10;
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-link: "Title Char";
+    mso-style-next: Normal;
+    mso-style-type: export-only;
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    mso-add-space: auto;
+    mso-pagination: widow-orphan;
+    border: none;
+    mso-border-bottom-alt: solid #FF388C 1.0pt;
+    padding: 0cm;
+    mso-padding-alt: 0cm 0cm 4.0pt 0cm;
+    font-size: 26.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Times New Roman";
+    mso-bidi-font-family: "Times New Roman";
+    color: #4C4C4C;
+    letter-spacing: .25pt;
+    mso-font-kerning: 14.0pt;
+    mso-ansi-language: EN-US;
+    mso-fareast-language: EN-US; }
+  .page p.MsoTitleCxSpMiddle, .page li.MsoTitleCxSpMiddle, .page div.MsoTitleCxSpMiddle {
+    mso-style-priority: 10;
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-link: "Title Char";
+    mso-style-next: Normal;
+    mso-style-type: export-only;
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    mso-add-space: auto;
+    mso-pagination: widow-orphan;
+    border: none;
+    mso-border-bottom-alt: solid #FF388C 1.0pt;
+    padding: 0cm;
+    mso-padding-alt: 0cm 0cm 4.0pt 0cm;
+    font-size: 26.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Times New Roman";
+    mso-bidi-font-family: "Times New Roman";
+    color: #4C4C4C;
+    letter-spacing: .25pt;
+    mso-font-kerning: 14.0pt;
+    mso-ansi-language: EN-US;
+    mso-fareast-language: EN-US; }
+  .page p.MsoTitleCxSpLast, .page li.MsoTitleCxSpLast, .page div.MsoTitleCxSpLast {
+    mso-style-priority: 10;
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-link: "Title Char";
+    mso-style-next: Normal;
+    mso-style-type: export-only;
+    margin-top: 0cm;
+    margin-right: 0cm;
+    margin-bottom: 15.0pt;
+    margin-left: 0cm;
+    mso-add-space: auto;
+    mso-pagination: widow-orphan;
+    border: none;
+    mso-border-bottom-alt: solid #FF388C 1.0pt;
+    padding: 0cm;
+    mso-padding-alt: 0cm 0cm 4.0pt 0cm;
+    font-size: 26.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Times New Roman";
+    mso-bidi-font-family: "Times New Roman";
+    color: #4C4C4C;
+    letter-spacing: .25pt;
+    mso-font-kerning: 14.0pt;
+    mso-ansi-language: EN-US;
+    mso-fareast-language: EN-US; }
+  .page a:link, .page span.MsoHyperlink {
+    mso-style-priority: 99;
+    color: #0563C1;
+    mso-themecolor: hyperlink;
+    text-decoration: underline;
+    text-underline: single; }
+  .page a:visited, .page span.MsoHyperlinkFollowed {
+    mso-style-noshow: yes;
+    mso-style-priority: 99;
+    color: #954F72;
+    mso-themecolor: followedhyperlink;
+    text-decoration: underline;
+    text-underline: single; }
+  .page p.MsoNoSpacing, .page li.MsoNoSpacing, .page div.MsoNoSpacing {
+    mso-style-priority: 1;
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-parent: "";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    mso-pagination: widow-orphan;
+    font-size: 11.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Century Gothic";
+    mso-bidi-font-family: "Times New Roman";
+    mso-ansi-language: EN-US;
+    mso-fareast-language: EN-US; }
+  .page p.MsoListParagraph, .page li.MsoListParagraph, .page div.MsoListParagraph {
+    mso-style-priority: 34;
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    margin-top: 0cm;
+    margin-right: 0cm;
+    margin-bottom: 10.0pt;
+    margin-left: 36.0pt;
+    mso-add-space: auto;
+    line-height: 115%;
+    mso-pagination: widow-orphan;
+    font-size: 11.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Century Gothic";
+    mso-bidi-font-family: "Times New Roman";
+    mso-ansi-language: EN-US;
+    mso-fareast-language: EN-US; }
+  .page p.MsoListParagraphCxSpFirst, .page li.MsoListParagraphCxSpFirst, .page div.MsoListParagraphCxSpFirst {
+    mso-style-priority: 34;
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-type: export-only;
+    margin-top: 0cm;
+    margin-right: 0cm;
+    margin-bottom: 0cm;
+    margin-left: 36.0pt;
+    margin-bottom: .0001pt;
+    mso-add-space: auto;
+    line-height: 115%;
+    mso-pagination: widow-orphan;
+    font-size: 11.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Century Gothic";
+    mso-bidi-font-family: "Times New Roman";
+    mso-ansi-language: EN-US;
+    mso-fareast-language: EN-US; }
+  .page p.MsoListParagraphCxSpMiddle, .page li.MsoListParagraphCxSpMiddle, .page div.MsoListParagraphCxSpMiddle {
+    mso-style-priority: 34;
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-type: export-only;
+    margin-top: 0cm;
+    margin-right: 0cm;
+    margin-bottom: 0cm;
+    margin-left: 36.0pt;
+    margin-bottom: .0001pt;
+    mso-add-space: auto;
+    line-height: 115%;
+    mso-pagination: widow-orphan;
+    font-size: 11.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Century Gothic";
+    mso-bidi-font-family: "Times New Roman";
+    mso-ansi-language: EN-US;
+    mso-fareast-language: EN-US; }
+  .page p.MsoListParagraphCxSpLast, .page li.MsoListParagraphCxSpLast, .page div.MsoListParagraphCxSpLast {
+    mso-style-priority: 34;
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-type: export-only;
+    margin-top: 0cm;
+    margin-right: 0cm;
+    margin-bottom: 10.0pt;
+    margin-left: 36.0pt;
+    mso-add-space: auto;
+    line-height: 115%;
+    mso-pagination: widow-orphan;
+    font-size: 11.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Century Gothic";
+    mso-bidi-font-family: "Times New Roman";
+    mso-ansi-language: EN-US;
+    mso-fareast-language: EN-US; }
+  .page span.TitleChar {
+    mso-style-name: "Title Char";
+    mso-style-priority: 10;
+    mso-style-unhide: no;
+    mso-style-locked: yes;
+    mso-style-parent: "";
+    mso-style-link: Title;
+    mso-ansi-font-size: 26.0pt;
+    mso-bidi-font-size: 26.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-ascii-font-family: "Century Gothic";
+    mso-fareast-font-family: "Times New Roman";
+    mso-hansi-font-family: "Century Gothic";
+    mso-bidi-font-family: "Times New Roman";
+    color: #4C4C4C;
+    letter-spacing: .25pt;
+    mso-font-kerning: 14.0pt; }
+  .page span.Heading1Char {
+    mso-style-name: "Heading 1 Char";
+    mso-style-priority: 9;
+    mso-style-unhide: no;
+    mso-style-locked: yes;
+    mso-style-parent: "";
+    mso-style-link: "Heading 1";
+    mso-ansi-font-size: 14.0pt;
+    mso-bidi-font-size: 14.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-ascii-font-family: "Century Gothic";
+    mso-fareast-font-family: "Times New Roman";
+    mso-hansi-font-family: "Century Gothic";
+    mso-bidi-font-family: "Times New Roman";
+    color: #E80061;
+    font-weight: bold; }
+  .page span.Heading2Char {
+    mso-style-name: "Heading 2 Char";
+    mso-style-priority: 9;
+    mso-style-unhide: no;
+    mso-style-locked: yes;
+    mso-style-parent: "";
+    mso-style-link: "Heading 2";
+    mso-ansi-font-size: 13.0pt;
+    mso-bidi-font-size: 13.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-ascii-font-family: "Century Gothic";
+    mso-fareast-font-family: "Times New Roman";
+    mso-hansi-font-family: "Century Gothic";
+    mso-bidi-font-family: "Times New Roman";
+    color: #FF388C;
+    font-weight: bold; }
+  .page span.Heading3Char {
+    mso-style-name: "Heading 3 Char";
+    mso-style-priority: 9;
+    mso-style-unhide: no;
+    mso-style-locked: yes;
+    mso-style-parent: "";
+    mso-style-link: "Heading 3";
+    mso-ansi-font-size: 13.0pt;
+    mso-bidi-font-size: 13.0pt;
+    font-family: "Cambria",serif;
+    mso-ascii-font-family: Cambria;
+    mso-fareast-font-family: "Times New Roman";
+    mso-hansi-font-family: Cambria;
+    mso-bidi-font-family: "Times New Roman";
+    font-weight: bold; }
+  .page span.domain {
+    mso-style-name: domain;
+    mso-style-unhide: no;
+    mso-style-parent: ""; }
+  .page span.vanity-name {
+    mso-style-name: vanity-name;
+    mso-style-unhide: no;
+    mso-style-parent: ""; }
+  .page span.HeaderChar {
+    mso-style-name: "Header Char";
+    mso-style-priority: 99;
+    mso-style-unhide: no;
+    mso-style-locked: yes;
+    mso-style-link: Header;
+    mso-ansi-font-size: 11.0pt;
+    mso-bidi-font-size: 11.0pt;
+    mso-ansi-language: EN-US;
+    mso-fareast-language: EN-US; }
+  .page span.FooterChar {
+    mso-style-name: "Footer Char";
+    mso-style-priority: 99;
+    mso-style-unhide: no;
+    mso-style-locked: yes;
+    mso-style-link: Footer;
+    mso-ansi-font-size: 11.0pt;
+    mso-bidi-font-size: 11.0pt;
+    mso-ansi-language: EN-US;
+    mso-fareast-language: EN-US; }
+  .page .MsoChpDefault {
+    mso-style-type: export-only;
+    mso-default-props: yes;
+    font-size: 10.0pt;
+    mso-ansi-font-size: 10.0pt;
+    mso-bidi-font-size: 10.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-ascii-font-family: "Century Gothic";
+    mso-fareast-font-family: "Century Gothic";
+    mso-hansi-font-family: "Century Gothic"; }
+
+@page {
+  .page {
+    mso-footnote-separator: url("Resume_files/header.htm") fs;
+    mso-footnote-continuation-separator: url("Resume_files/header.htm") fcs;
+    mso-endnote-separator: url("Resume_files/header.htm") es;
+    mso-endnote-continuation-separator: url("Resume_files/header.htm") ecs; } }
+
+@page WordSection1 {
+  .page {
+    size: 612.0pt 792.0pt;
+    margin: 40.55pt 72.0pt 42.55pt 72.0pt;
+    mso-header-margin: 36.0pt;
+    mso-footer-margin: 36.0pt;
+    border-top: double windowtext 9.0pt;
+    border-left: none;
+    border-bottom: none;
+    border-right: double windowtext 9.0pt;
+    mso-border-top-alt: thin-thick-thin-large-gap windowtext 9.0pt;
+    mso-border-right-alt: thin-thick-thin-large-gap windowtext 9.0pt;
+    padding: 24.0pt 24.0pt 0cm 0cm;
+    mso-paper-source: 0; } }
+  .page div.WordSection1 {
+    page: WordSection1; }
+
+@page WordSection2 {
+  .page {
+    size: 612.0pt 792.0pt;
+    margin: 72.0pt 72.0pt 72.0pt 72.0pt;
+    mso-header-margin: 36.0pt;
+    mso-footer-margin: 36.0pt;
+    border-top: double windowtext 9.0pt;
+    border-left: none;
+    border-bottom: none;
+    border-right: double windowtext 9.0pt;
+    mso-border-top-alt: thin-thick-thin-large-gap windowtext 9.0pt;
+    mso-border-right-alt: thin-thick-thin-large-gap windowtext 9.0pt;
+    padding: 24.0pt 24.0pt 0cm 0cm;
+    mso-paper-source: 0; } }
+  .page div.WordSection2 {
+    page: WordSection2; }
+
+@page WordSection3 {
+  .page {
+    size: 612.0pt 792.0pt;
+    margin: 72.0pt 72.0pt 72.0pt 72.0pt;
+    mso-header-margin: 36.0pt;
+    mso-footer-margin: 36.0pt;
+    border-top: double windowtext 9.0pt;
+    border-left: none;
+    border-bottom: none;
+    border-right: double windowtext 9.0pt;
+    mso-border-top-alt: thin-thick-thin-large-gap windowtext 9.0pt;
+    mso-border-right-alt: thin-thick-thin-large-gap windowtext 9.0pt;
+    padding: 24.0pt 24.0pt 0cm 0cm;
+    mso-paper-source: 0; } }
+  .page div.WordSection3 {
+    page: WordSection3; }
+
+@list l0 {
+  .page {
+    mso-list-id: 181474282;
+    mso-list-type: hybrid;
+    mso-list-template-ids: 1295654774 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693; } }
+
+@list l0:level1 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 32.2pt;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l0:level2 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 68.2pt;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l0:level3 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 104.2pt;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l0:level4 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 140.2pt;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l0:level5 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 176.2pt;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l0:level6 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 212.2pt;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l0:level7 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 248.2pt;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l0:level8 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 284.2pt;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l0:level9 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 320.2pt;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l1 {
+  .page {
+    mso-list-id: 349113530;
+    mso-list-type: hybrid;
+    mso-list-template-ids: -471809734 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693; } }
+
+@list l1:level1 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l1:level2 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l1:level3 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l1:level4 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l1:level5 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l1:level6 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l1:level7 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l1:level8 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l1:level9 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l2 {
+  .page {
+    mso-list-id: 544368381;
+    mso-list-type: hybrid;
+    mso-list-template-ids: -1142027342 67698691 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693; } }
+
+@list l2:level1 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 54.0pt;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l2:level2 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 90.0pt;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l2:level3 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 126.0pt;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l2:level4 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 162.0pt;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l2:level5 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 198.0pt;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l2:level6 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 234.0pt;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l2:level7 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 270.0pt;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l2:level8 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 306.0pt;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l2:level9 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 342.0pt;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l3 {
+  .page {
+    mso-list-id: 678121753;
+    mso-list-type: hybrid;
+    mso-list-template-ids: -1298366084 269025281 269025283 269025285 269025281 269025283 269025285 269025281 269025283 269025285; } }
+
+@list l3:level1 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l3:level2 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l3:level3 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l3:level4 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l3:level5 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l3:level6 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l3:level7 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l3:level8 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l3:level9 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l4 {
+  .page {
+    mso-list-id: 703597870;
+    mso-list-type: hybrid;
+    mso-list-template-ids: -1653342130 681577298 269025283 269025285 269025281 269025283 269025285 269025281 269025283 269025285; } }
+
+@list l4:level1 {
+  .page {
+    mso-level-start-at: 0;
+    mso-level-number-format: bullet;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Century Gothic";
+    mso-bidi-font-family: "Times New Roman"; } }
+
+@list l4:level2 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l4:level3 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l4:level4 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l4:level5 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l4:level6 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l4:level7 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l4:level8 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l4:level9 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l5 {
+  .page {
+    mso-list-id: 793907014;
+    mso-list-type: hybrid;
+    mso-list-template-ids: 1541806088 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693; } }
+
+@list l5:level1 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l5:level2 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l5:level3 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l5:level4 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l5:level5 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l5:level6 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l5:level7 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l5:level8 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l5:level9 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l6 {
+  .page {
+    mso-list-id: 829097807;
+    mso-list-type: hybrid;
+    mso-list-template-ids: 1088345068 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693; } }
+
+@list l6:level1 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l6:level2 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l6:level3 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l6:level4 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l6:level5 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l6:level6 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l6:level7 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l6:level8 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l6:level9 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l7 {
+  .page {
+    mso-list-id: 835001334;
+    mso-list-type: hybrid;
+    mso-list-template-ids: -1201383406 269025281 269025283 269025285 269025281 269025283 269025285 269025281 269025283 269025285; } }
+
+@list l7:level1 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l7:level2 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l7:level3 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l7:level4 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l7:level5 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l7:level6 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l7:level7 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l7:level8 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l7:level9 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l8 {
+  .page {
+    mso-list-id: 847792947;
+    mso-list-type: hybrid;
+    mso-list-template-ids: -585213780 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693; } }
+
+@list l8:level1 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l8:level2 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l8:level3 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l8:level4 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l8:level5 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l8:level6 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l8:level7 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l8:level8 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l8:level9 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l9 {
+  .page {
+    mso-list-id: 876628320;
+    mso-list-type: hybrid;
+    mso-list-template-ids: 1905428462 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693; } }
+
+@list l9:level1 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l9:level2 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l9:level3 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l9:level4 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l9:level5 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l9:level6 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l9:level7 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l9:level8 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l9:level9 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l10 {
+  .page {
+    mso-list-id: 894391896;
+    mso-list-type: hybrid;
+    mso-list-template-ids: 1575018022 269025281 269025283 269025285 269025281 269025283 269025285 269025281 269025283 269025285; } }
+
+@list l10:level1 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l10:level2 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l10:level3 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l10:level4 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l10:level5 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l10:level6 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l10:level7 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l10:level8 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l10:level9 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l11 {
+  .page {
+    mso-list-id: 1042559702;
+    mso-list-type: hybrid;
+    mso-list-template-ids: 1050042982 1970179778 269025283 269025285 269025281 269025283 269025285 269025281 269025283 269025285; } }
+
+@list l11:level1 {
+  .page {
+    mso-level-start-at: 0;
+    mso-level-number-format: bullet;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 54.0pt;
+    text-indent: -18.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Century Gothic";
+    mso-bidi-font-family: "Times New Roman"; } }
+
+@list l11:level2 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 90.0pt;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l11:level3 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 126.0pt;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l11:level4 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 162.0pt;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l11:level5 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 198.0pt;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l11:level6 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 234.0pt;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l11:level7 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 270.0pt;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l11:level8 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 306.0pt;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l11:level9 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    margin-left: 342.0pt;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l12 {
+  .page {
+    mso-list-id: 1066224278;
+    mso-list-type: hybrid;
+    mso-list-template-ids: 314229692 1010722468 269025283 269025285 269025281 269025283 269025285 269025281 269025283 269025285; } }
+
+@list l12:level1 {
+  .page {
+    mso-level-start-at: 0;
+    mso-level-number-format: bullet;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Century Gothic";
+    mso-bidi-font-family: "Times New Roman"; } }
+
+@list l12:level2 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l12:level3 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l12:level4 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l12:level5 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l12:level6 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l12:level7 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l12:level8 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l12:level9 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l13 {
+  .page {
+    mso-list-id: 1379746509;
+    mso-list-type: hybrid;
+    mso-list-template-ids: -356098454 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693; } }
+
+@list l13:level1 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l13:level2 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l13:level3 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l13:level4 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l13:level5 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l13:level6 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l13:level7 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l13:level8 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l13:level9 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l14 {
+  .page {
+    mso-list-id: 1587035565;
+    mso-list-type: hybrid;
+    mso-list-template-ids: -1585961312 -816160372 269025283 269025285 269025281 269025283 269025285 269025281 269025283 269025285; } }
+
+@list l14:level1 {
+  .page {
+    mso-level-start-at: 2970;
+    mso-level-number-format: bullet;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Century Gothic";
+    mso-bidi-font-family: "Times New Roman"; } }
+
+@list l14:level2 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l14:level3 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l14:level4 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l14:level5 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l14:level6 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l14:level7 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l14:level8 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l14:level9 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l15 {
+  .page {
+    mso-list-id: 1693067581;
+    mso-list-type: hybrid;
+    mso-list-template-ids: -11361288 -1272156274 269025283 269025285 269025281 269025283 269025285 269025281 269025283 269025285; } }
+
+@list l15:level1 {
+  .page {
+    mso-level-start-at: 0;
+    mso-level-number-format: bullet;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Century Gothic";
+    mso-bidi-font-family: "Times New Roman"; } }
+
+@list l15:level2 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l15:level3 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l15:level4 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l15:level5 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l15:level6 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l15:level7 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l15:level8 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l15:level9 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l16 {
+  .page {
+    mso-list-id: 1803813472;
+    mso-list-type: hybrid;
+    mso-list-template-ids: 1775529636 1122040180 269025283 269025285 269025281 269025283 269025285 269025281 269025283 269025285; } }
+
+@list l16:level1 {
+  .page {
+    mso-level-start-at: 0;
+    mso-level-number-format: bullet;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Century Gothic",sans-serif;
+    mso-fareast-font-family: "Century Gothic";
+    mso-bidi-font-family: "Times New Roman"; } }
+
+@list l16:level2 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l16:level3 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l16:level4 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l16:level5 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l16:level6 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l16:level7 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l16:level8 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l16:level9 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l17 {
+  .page {
+    mso-list-id: 1940992193;
+    mso-list-type: hybrid;
+    mso-list-template-ids: 496695192 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693; } }
+
+@list l17:level1 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l17:level2 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l17:level3 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l17:level4 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l17:level5 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l17:level6 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+
+@list l17:level7 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0B7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Symbol; } }
+
+@list l17:level8 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: o;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: "Courier New"; } }
+
+@list l17:level9 {
+  .page {
+    mso-level-number-format: bullet;
+    mso-level-text: \F0A7;
+    mso-level-tab-stop: none;
+    mso-level-number-position: left;
+    text-indent: -18.0pt;
+    font-family: Wingdings; } }
+  .page ol {
+    margin-bottom: 0cm; }
+  .page ul {
+    margin-bottom: 0cm; }

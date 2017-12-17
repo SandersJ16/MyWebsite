@@ -5,6 +5,12 @@
     %% css_links([url_for('static', filename='css/header.css')]) %%
 <% endblock %>
 
+<% block body_javascript %>
+    %% super() %%
+    %% javascript_paths([url_for('static', filename='js/header.vue.js')]) %%
+<% endblock %>
+
 <% block header %>
     <% include 'header.htm.j2' %>
 <% endblock %>
+

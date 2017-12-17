@@ -1,11 +1,15 @@
 @import "bulma_config";
 @import "../node_modules/bulma/sass/utilities/variables";
+@import "../node_modules/bulma/sass/utilities/mixins";
 @import "mixins";
 
 html, body {
+    background-color: $primary;
+    overflow-y: auto;
+    overflow-x: hidden;
     height: 100%;
     margin: 0;
-    display: flex;
+    @include flex();
     @include flex-vertical();
 }
 
@@ -18,4 +22,9 @@ html, body {
                //Without this inside objects with 100% height will match
                //the entire page height, not the height of the remainder of the page.
     flex: 1 1 auto;
+}
+
+.fill-page {
+    height: 100%;
+    background-size: 100% 100%;
 }

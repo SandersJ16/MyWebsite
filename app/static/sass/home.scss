@@ -1,6 +1,18 @@
 @import "bulma_config";
 @import "../node_modules/bulma/sass/utilities/variables";
+@import "mixins";
 
-.fill-page {
-    height: 100%;
+
+section#home {
+    //background-image: url("/static/img/mountain_acro.webp");
+    background-image: url("/static/img/G0057988.JPG");
+    //background-image: url("/static/img/G0058004.JPG");
+
+    @include flex();
+    align-items: center;
+}
+
+.main-text {
+    margin: 0;
+    margin-left: 3%;
 }

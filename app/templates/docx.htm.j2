@@ -1,0 +1,26 @@
+<% extends "base.htm.j2" %>
+
+<% block links %>
+    %% super() %%
+    %% css_links([url_for('static', filename='css/docx.css')]) %%
+<% endblock %>
+
+<% block content %>
+   <div class="page">
+      <div class="document">
+      <% block document %>
+         This is a test document
+      <% endblock %>
+      </div>
+   </div>
+   <div class="document_controls">
+      <form method="get" <% if filename %>action="%% filename %%"<% endif %>>
+          <button class="button is-info is-medium is-outlined" type="submit"
+            <% if not filename %>
+            disabled
+            <% endif %>
+          >Download</button>
+      </form>
+   </div>
+
+<% endblock %>

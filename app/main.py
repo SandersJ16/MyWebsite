@@ -31,7 +31,7 @@ def register_blueprints(app):
             app.register_blueprint(mod.bp)
 
 def load_global_configuration(app):
-    app.config.user = {"nickname": "Sandy"}
+    app.config.user = None
 
 
 app = CustomTemplateFlask(__name__)

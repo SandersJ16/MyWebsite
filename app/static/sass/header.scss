@@ -1,12 +1,24 @@
 @import "bulma_config";
 @import "../node_modules/bulma/sass/utilities/variables";
 
-$header_background_color: $primary;
-.main_header {
-    width: 100%;
-    background-color: $header_background_color;
-
-    nav.navbar {
-        background-color: $header_background_color;
+// CSS for hamburger dropdown menu
+.navbar-menu.is-active {
+    position: absolute;
+    right: 0;
+}
+a.navbar-item:hover {
+    .icon.neutral {
+        display: none;
+    }
+    .icon.hovered {
+        display: initial;
+    }
+}
+a.navbar-item {
+    .icon.neutral {
+        display: initial;
+    }
+    .icon.hovered {
+        display: none;
     }
 }

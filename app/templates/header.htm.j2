@@ -1,7 +1,10 @@
 <% macro external_link(visibility, url, icon) %>
     <a class="navbar-item %% visibility %%" href="%% url %%" target="_blank">
-        <span class="icon has-text-info">
-            <i class="fa fa-3x fa-%% icon %%"></i>
+        <span class="icon has-text-primary neutral">
+            <i class="fa fa-2x fa-%% icon %%"></i>
+        </span>
+        <span class="icon has-text-white hovered">
+            <i class="fa fa-2x fa-%% icon %%"></i>
         </span>
     </a>
 <% endmacro %>
@@ -10,31 +13,36 @@
     %% external_link(visibility, "https://www.linkedin.com/in/justinsanderscodemastersupreme/", "linkedin") %%
 <% endmacro %>
 
-<div class="container is-primary">
-    <nav class="navbar">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="/">
-                <img src="%% url_for('static', filename='img/JustinSanders.svg') %%" alt="Justin Sanders" class="header_logo">
+
+<nav id="navbar" class="navbar is-black">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="%% url_for('static', filename='img/JustinSanders.svg') %%" alt="Justin Sanders" class="header_logo">
+        </a>
+        <!-- Display only on mobile screen devies -->
+        %% external_links("is-hidden-desktop") %%
+        <div class="navbar-burger" v-on:click="toggleMenu" v-bind:class="{ 'is-active': hamburger_active }">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="navbar-menu" v-bind:class="{ 'is-active': hamburger_active }">
+        <div class="navbar-start">
+            <a class="navbar-item" href="/about">
+                About Me
             </a>
-            <!-- Display only on mobile screen devies -->
-            %% external_links("is-hidden-desktop") %%
+            <a class="navbar-item" href="/resume">
+                Resume
+            </a>
         </div>
 
-        <div class="navbar-menu">
-            <div class="navbar-start">
-                <a class="navbar-item" href="/">
-                    Bio
-                </a>
-                <a class="navbar-item" href="/">
-                    Notes
-                </a>
-            </div>
-
-            <div class="navbar-end">
-                <span class="navbar-item">Welcome, %% config.user.nickname|default("Guest") %%</span>
-                <!-- Display only on full screen devices -->
-                %% external_links("is-hidden-desktop-only") %%
-            </div>
+        <div class="navbar-end is-hidden-touch">
+            <span class="navbar-item">Welcome, %% config.user.nickname|default("Guest") %%</span>
+            <!-- Display only on full screen devices -->
+            %% external_links("") %%
         </div>
-    </nav>
-</div>
+    </div>
+</nav>
+

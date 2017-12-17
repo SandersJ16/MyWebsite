@@ -1,21 +1,30 @@
 // 1. Import the initial variables
 @import "../node_modules/bulma/sass/utilities/initial-variables";
+@import "../node_modules/bulma/sass/utilities/functions";
 
 // 2. Set your own initial variables
-// Update blue
-$blue: #72d0eb;
+// Update blue00DCD4
+//$blue: #72d0eb;
 // Add pink and its invert
 $pink: #ffb3b3;
 $pink-invert: #fff;
 // Add a serif family
 $family-serif: "Merriweather", "Georgia", serif;
 
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+$ubuntu-mono: 'Ubuntu Mono', monospace;
+
+//$link: #f06080;
+$link: #752a8f;
+
 // 3. Set the derived variables
 // Use the new pink as the primary color
-$primary: $purple;
+$primary: #00DCD4;
 //$primary-invert: findColorInvert($purple);
 // Use the existing orange as the danger color
 $danger: $orange;
 // Use the new serif family
-//$family-primary: $family-serif;
+$family-primary: $ubuntu-mono;
 
+// $navbar-tab-hover-background-color: #;
+$navbar-item-hover-background-color: $primary !important;
