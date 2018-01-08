@@ -1,5 +1,3 @@
-# import click
-# from flaskext.sass import sass
 from werkzeug.utils import find_modules, import_string
 from flask import Flask
 
