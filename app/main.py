@@ -36,7 +36,6 @@ def load_global_configuration(app):
 app = CustomTemplateFlask(__name__)
 load_global_configuration(app)
 register_blueprints(app)
-
 # if app.debug:
 #     sass(app, input_dir='static/sass/')
 

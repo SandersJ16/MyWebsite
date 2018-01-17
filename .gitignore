@@ -1,3 +1,4 @@
+secret_key
 node_modules/*
 /.sass-cache
 __pycache__
