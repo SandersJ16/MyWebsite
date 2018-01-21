@@ -13,11 +13,11 @@ html, body {
     @include flex-vertical();
 }
 
-.main_header {
+.main-header {
     flex: 0 1 auto;
 }
 
-.main_body {
+.main-body {
     height: 0; //This is a trick to make flex-grow:1 work as expected.
                //Without this inside objects with 100% height will match
                //the entire page height, not the height of the remainder of the page.

@@ -21,10 +21,10 @@ html, body {
   -ms-flex-direction: column;
   flex-direction: column; }
 
-.main_header {
+.main-header {
   flex: 0 1 auto; }
 
-.main_body {
+.main-body {
   height: 0;
   flex: 1 1 auto; }
 
