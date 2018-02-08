@@ -18,4 +18,4 @@ def about():
 
 @bp.route("/resume")
 def resume():
-    return app.render_template("resume.htm.j2")
+    return app.render_template("new_resume.htm.j2")
