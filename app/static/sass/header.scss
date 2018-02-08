@@ -1,24 +1,28 @@
 @import "bulma_config";
 @import "../node_modules/bulma/sass/utilities/variables";
 
-// CSS for hamburger dropdown menu
-.navbar-menu.is-active {
-    position: absolute;
-    right: 0;
-}
-a.navbar-item:hover {
-    .icon.neutral {
-        display: none;
+header.main-header {
+    max-height: 5rem;
+
+    // CSS for hamburger dropdown menu
+    .navbar-menu.is-active {
+        position: absolute;
+        right: 0;
     }
-    .icon.hovered {
-        display: initial;
+    a.navbar-item:hover {
+        .icon.neutral {
+            display: none;
+        }
+        .icon.hovered {
+            display: initial;
+        }
     }
-}
-a.navbar-item {
-    .icon.neutral {
-        display: initial;
-    }
-    .icon.hovered {
-        display: none;
+    a.navbar-item {
+        .icon.neutral {
+            display: initial;
+        }
+        .icon.hovered {
+            display: none;
+        }
     }
 }

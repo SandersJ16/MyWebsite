@@ -1,16 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono");
-.navbar-menu.is-active {
-  position: absolute;
-  right: 0; }
-
-a.navbar-item:hover .icon.neutral {
-  display: none; }
-
-a.navbar-item:hover .icon.hovered {
-  display: initial; }
-
-a.navbar-item .icon.neutral {
-  display: initial; }
-
-a.navbar-item .icon.hovered {
-  display: none; }
+header.main-header {
+  max-height: 5rem; }
+  header.main-header .navbar-menu.is-active {
+    position: absolute;
+    right: 0; }
+  header.main-header a.navbar-item:hover .icon.neutral {
+    display: none; }
+  header.main-header a.navbar-item:hover .icon.hovered {
+    display: initial; }
+  header.main-header a.navbar-item .icon.neutral {
+    display: initial; }
+  header.main-header a.navbar-item .icon.hovered {
+    display: none; }

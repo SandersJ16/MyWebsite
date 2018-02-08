@@ -1,0 +1,22 @@
+<% extends "global/main_body.htm.j2" %>
+
+<% block head_javascript %>
+    %% super() %%
+    %% JSGlue.include() %%
+    var template_values = {
+    <% for key, value in context().items() -%>
+         <% if not callable(value) and key not in ['config', 'session', 'request', 'g'] -%>
+            %% key %%: %% value | to_json |safe %%,
+         <%- endif %>
+    <%- endfor %>
+    }
+    var config = %% vars(config) | to_json | safe %%
+<% endblock %>
+
+<% block content %>
+    <main-header></main-header>
+    <main-content>
+        <slot></slot>
+        test
+    </main-content>
+<% endblock %>

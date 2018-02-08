@@ -1,5 +1,6 @@
 <% from "macros/css_links.htm.j2" import css_links %>
 <% from "macros/javascript_paths.htm.j2" import javascript_paths %>
+<!DOCTYPE html>
 <html>
     <head>
         <title><% block title %><% endblock %></title>
@@ -13,13 +14,7 @@
         <% endblock %>
     </head>
     <body>
-        <header class="main-header">
-            <% block header %><% endblock %>
-        </header>
-        <main class="main-body">
-            <% block content %><% endblock %>
-        </main>
-        <% block body_javascript %>
-        <% endblock %>
+        <% block body %><% endblock %>
+        <% block body_javascript %><% endblock %>
     </body>
 </html>

@@ -1,4 +1,4 @@
-<% extends "main_body.htm.j2" %>
+<% extends "global/main_body.htm.j2" %>
 
 <% block links %>
     %% super() %%
@@ -10,7 +10,11 @@
     %% javascript_paths([url_for('static', filename='js/header.vue.js')]) %%
 <% endblock %>
 
-<% block header %>
-    <% include 'header.htm.j2' %>
+<% block body %>
+    <header class="main-header">
+        <% include 'jinja/header.htm.j2' %>
+    </header>
+    <main class="main-body">
+        <% block content %><% endblock %>
+    </main>
 <% endblock %>
-
